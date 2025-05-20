@@ -1,0 +1,95 @@
+body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #fffdf5;
+        }
+
+        header {
+            background: #c0392b;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 0.5rem 0 0;
+            font-style: italic;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #ecf0f1;
+            padding: 1rem;
+        }
+
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #c0392b;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 2rem 1rem;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .recipe-card {
+            background: #f8f9fa;
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+        }
+
+        form div {
+            margin-bottom: 1rem;
+        }
+
+        form label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        button {
+            background: #c0392b;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        button:hover {
+            background: #a93226;
+        }
+
+        footer {
+            background: #ecf0f1;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filipino Recipe Sharing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Filipino Recipe Sharing</h1>
+        <p>Discover and share the best of Filipino cuisine!</p>
+    </header>
+
+    <nav>
+        <a href="#explore">Explore Recipes</a>
+        <a href="#submit">Submit Recipe</a>
+    </nav>
+
+    <div class="container" id="explore">
+        <h2>Explore Recipes</h2>
+        <div class="recipe-card">
+            <img src="Q2VITO.jpg" length="200" width="300">
+            <h3>Adobo</h3>
+            <p>A classic Filipino dish made with chicken or pork, marinated in vinegar, soy sauce, and spices.</p>
+
+        </div>
+        <div class="recipe-card">
+            <img src="vito.jpg" length="300" width="400">
+            <h3>Sinigang</h3>
+            <p>A sour and savory soup made with tamarind, vegetables, and your choice of meat or seafood.</p>
+        </div>
+
+        <div class="recipe-card">
+            <img src="lechon.jpg" length="300" width="400">
+            <h3>Lechon Kawali</h3>
+            <p>Crunchy, deep-fried pork belly served with a tangy dipping sauce.</p>
+        </div>
+    </div>
+
+    <div class="container" id="submit">
+        <h2>Submit Your Recipe</h2>
+        <form action="#" method="post">
+            <div>
+                <label for="recipe-name">Recipe Name</label>
+                <input type="text" id="recipe-name" name="recipe-name" placeholder="Enter recipe name" required>
+            </div>
+            <div>
+                <label for="recipe-description">Description</label>
+                <textarea id="recipe-description" name="recipe-description" placeholder="Enter a short description" rows="4" required></textarea>
+            </div>
+            <div>
+                <label for="ingredients">Ingredients</label>
+                <textarea id="ingredients" name="ingredients" placeholder="List ingredients" rows="4" required></textarea>
+            </div>
+            <div>
+                <label for="instructions">Instructions</label>
+                <textarea id="instructions" name="instructions" placeholder="Enter step-by-step instructions" rows="4" required></textarea>
+            </div>
+            <button type="submit">Submit Recipe</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Filipino Recipe Sharing. All rights reserved.</p>
+    </footer>
+</body>
+</html>
